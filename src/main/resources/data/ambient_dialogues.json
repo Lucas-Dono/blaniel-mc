@@ -1,0 +1,1804 @@
+{
+  "dialogues": [
+    {
+      "id": 1,
+      "text": "Qué buen día hace, ¿no?",
+      "category": "clima",
+      "tone": "casual"
+    },
+    {
+      "id": 2,
+      "text": "Parece que va a llover pronto",
+      "category": "clima",
+      "tone": "observational"
+    },
+    {
+      "id": 3,
+      "text": "Hace un calor tremendo hoy",
+      "category": "clima",
+      "tone": "casual"
+    },
+    {
+      "id": 4,
+      "text": "Me encanta cuando sopla el viento así",
+      "category": "clima",
+      "tone": "positive"
+    },
+    {
+      "id": 5,
+      "text": "Qué noche tan despejada",
+      "category": "clima",
+      "tone": "calm"
+    },
+    {
+      "id": 6,
+      "text": "Las nubes se ven raras hoy",
+      "category": "clima",
+      "tone": "curious"
+    },
+    {
+      "id": 7,
+      "text": "Hace frío para esta época",
+      "category": "clima",
+      "tone": "casual"
+    },
+    {
+      "id": 8,
+      "text": "El cielo está precioso",
+      "category": "clima",
+      "tone": "positive"
+    },
+    {
+      "id": 9,
+      "text": "Se siente la humedad en el aire",
+      "category": "clima",
+      "tone": "observational"
+    },
+    {
+      "id": 10,
+      "text": "Qué atardecer más bonito",
+      "category": "clima",
+      "tone": "appreciative"
+    },
+    {
+      "id": 11,
+      "text": "Está perfecto el clima hoy",
+      "category": "clima",
+      "tone": "positive"
+    },
+    {
+      "id": 12,
+      "text": "Me gusta el sonido de la lluvia",
+      "category": "clima",
+      "tone": "calm"
+    },
+    {
+      "id": 13,
+      "text": "Qué brisa tan agradable",
+      "category": "clima",
+      "tone": "pleasant"
+    },
+    {
+      "id": 14,
+      "text": "El sol está muy fuerte",
+      "category": "clima",
+      "tone": "casual"
+    },
+    {
+      "id": 15,
+      "text": "Se viene tormenta, seguro",
+      "category": "clima",
+      "tone": "predictive"
+    },
+    {
+      "id": 16,
+      "text": "Qué lindo día para estar afuera",
+      "category": "clima",
+      "tone": "positive"
+    },
+    {
+      "id": 17,
+      "text": "Hace un frío que pela",
+      "category": "clima",
+      "tone": "casual"
+    },
+    {
+      "id": 18,
+      "text": "Las estrellas se ven claritas",
+      "category": "clima",
+      "tone": "observational"
+    },
+    {
+      "id": 19,
+      "text": "Parece que aclaró un poco",
+      "category": "clima",
+      "tone": "hopeful"
+    },
+    {
+      "id": 20,
+      "text": "Qué niebla tan espesa",
+      "category": "clima",
+      "tone": "observational"
+    },
+    {
+      "id": 21,
+      "text": "El clima está loco últimamente",
+      "category": "clima",
+      "tone": "bemused"
+    },
+    {
+      "id": 22,
+      "text": "Se siente el cambio de estación",
+      "category": "clima",
+      "tone": "reflective"
+    },
+    {
+      "id": 23,
+      "text": "Qué aire tan fresco",
+      "category": "clima",
+      "tone": "pleasant"
+    },
+    {
+      "id": 24,
+      "text": "Está nublado pero agradable",
+      "category": "clima",
+      "tone": "neutral"
+    },
+    {
+      "id": 25,
+      "text": "La luna está enorme hoy",
+      "category": "clima",
+      "tone": "amazed"
+    },
+    {
+      "id": 26,
+      "text": "Qué calorcito tan rico",
+      "category": "clima",
+      "tone": "cozy"
+    },
+    {
+      "id": 27,
+      "text": "Se ve que va a helar",
+      "category": "clima",
+      "tone": "predictive"
+    },
+    {
+      "id": 28,
+      "text": "El viento está cambiando de dirección",
+      "category": "clima",
+      "tone": "observational"
+    },
+    {
+      "id": 29,
+      "text": "Qué día más gris",
+      "category": "clima",
+      "tone": "neutral"
+    },
+    {
+      "id": 30,
+      "text": "Se siente la primavera en el aire",
+      "category": "clima",
+      "tone": "hopeful"
+    },
+    {
+      "id": 31,
+      "text": "Hace un tiempo perfecto",
+      "category": "clima",
+      "tone": "positive"
+    },
+    {
+      "id": 32,
+      "text": "Qué amanecer tan hermoso",
+      "category": "clima",
+      "tone": "appreciative"
+    },
+    {
+      "id": 33,
+      "text": "Está muy bochornoso hoy",
+      "category": "clima",
+      "tone": "uncomfortable"
+    },
+    {
+      "id": 34,
+      "text": "El sol se está escondiendo",
+      "category": "clima",
+      "tone": "observational"
+    },
+    {
+      "id": 35,
+      "text": "Qué noche tan estrellada",
+      "category": "clima",
+      "tone": "romantic"
+    },
+    {
+      "id": 36,
+      "text": "Parece que va a despejarse",
+      "category": "clima",
+      "tone": "hopeful"
+    },
+    {
+      "id": 37,
+      "text": "Hace un clima raro hoy",
+      "category": "clima",
+      "tone": "uncertain"
+    },
+    {
+      "id": 38,
+      "text": "Qué viento tan helado",
+      "category": "clima",
+      "tone": "cold"
+    },
+    {
+      "id": 39,
+      "text": "El aire huele a tierra mojada",
+      "category": "clima",
+      "tone": "sensory"
+    },
+    {
+      "id": 40,
+      "text": "Está ideal para caminar",
+      "category": "clima",
+      "tone": "pleasant"
+    },
+    {
+      "id": 41,
+      "text": "Qué tormenta la de anoche",
+      "category": "clima",
+      "tone": "reflective"
+    },
+    {
+      "id": 42,
+      "text": "El sol pega fuerte a esta hora",
+      "category": "clima",
+      "tone": "observational"
+    },
+    {
+      "id": 43,
+      "text": "Hace un día radiante",
+      "category": "clima",
+      "tone": "cheerful"
+    },
+    {
+      "id": 44,
+      "text": "Qué fresquito está",
+      "category": "clima",
+      "tone": "pleasant"
+    },
+    {
+      "id": 45,
+      "text": "Se viene agua seguro",
+      "category": "clima",
+      "tone": "predictive"
+    },
+    {
+      "id": 46,
+      "text": "El cielo está cambiando de color",
+      "category": "clima",
+      "tone": "observational"
+    },
+    {
+      "id": 47,
+      "text": "Qué bien se siente el aire",
+      "category": "clima",
+      "tone": "relaxed"
+    },
+    {
+      "id": 48,
+      "text": "Está templado el día",
+      "category": "clima",
+      "tone": "neutral"
+    },
+    {
+      "id": 49,
+      "text": "Las flores huelen más con este clima",
+      "category": "clima",
+      "tone": "sensory"
+    },
+    {
+      "id": 50,
+      "text": "Qué día tan perfecto",
+      "category": "clima",
+      "tone": "satisfied"
+    },
+    {
+      "id": 51,
+      "text": "Tengo que terminar eso más tarde",
+      "category": "planes",
+      "tone": "casual"
+    },
+    {
+      "id": 52,
+      "text": "Voy a dar una vuelta por ahí",
+      "category": "planes",
+      "tone": "relaxed"
+    },
+    {
+      "id": 53,
+      "text": "Hoy me toca recoger leña",
+      "category": "planes",
+      "tone": "matter-of-fact"
+    },
+    {
+      "id": 54,
+      "text": "Tengo ganas de explorar un poco",
+      "category": "planes",
+      "tone": "adventurous"
+    },
+    {
+      "id": 55,
+      "text": "Creo que voy a descansar un rato",
+      "category": "planes",
+      "tone": "tired"
+    },
+    {
+      "id": 56,
+      "text": "Después paso por allá",
+      "category": "planes",
+      "tone": "casual"
+    },
+    {
+      "id": 57,
+      "text": "Tengo que arreglar unas cosas",
+      "category": "planes",
+      "tone": "busy"
+    },
+    {
+      "id": 58,
+      "text": "Voy a ver qué hay más adelante",
+      "category": "planes",
+      "tone": "curious"
+    },
+    {
+      "id": 59,
+      "text": "Hoy me quedo tranquilo",
+      "category": "planes",
+      "tone": "calm"
+    },
+    {
+      "id": 60,
+      "text": "Tengo planes para más tarde",
+      "category": "planes",
+      "tone": "casual"
+    },
+    {
+      "id": 61,
+      "text": "Voy a buscar recursos cerca",
+      "category": "planes",
+      "tone": "practical"
+    },
+    {
+      "id": 62,
+      "text": "Hoy toca organizar un poco",
+      "category": "planes",
+      "tone": "productive"
+    },
+    {
+      "id": 63,
+      "text": "Después voy por agua",
+      "category": "planes",
+      "tone": "casual"
+    },
+    {
+      "id": 64,
+      "text": "Tengo que revisar mi equipamiento",
+      "category": "planes",
+      "tone": "practical"
+    },
+    {
+      "id": 65,
+      "text": "Voy a construir algo nuevo",
+      "category": "planes",
+      "tone": "creative"
+    },
+    {
+      "id": 66,
+      "text": "Hoy me apetece pescar",
+      "category": "planes",
+      "tone": "relaxed"
+    },
+    {
+      "id": 67,
+      "text": "Tengo que terminar eso que empecé",
+      "category": "planes",
+      "tone": "responsible"
+    },
+    {
+      "id": 68,
+      "text": "Voy a mejorar mi refugio",
+      "category": "planes",
+      "tone": "motivated"
+    },
+    {
+      "id": 69,
+      "text": "Hoy exploro la zona norte",
+      "category": "planes",
+      "tone": "adventurous"
+    },
+    {
+      "id": 70,
+      "text": "Tengo ganas de hacer nada",
+      "category": "planes",
+      "tone": "lazy"
+    },
+    {
+      "id": 71,
+      "text": "Voy a practicar un rato",
+      "category": "planes",
+      "tone": "determined"
+    },
+    {
+      "id": 72,
+      "text": "Hoy me dedico a recolectar",
+      "category": "planes",
+      "tone": "focused"
+    },
+    {
+      "id": 73,
+      "text": "Tengo que preparar provisiones",
+      "category": "planes",
+      "tone": "practical"
+    },
+    {
+      "id": 74,
+      "text": "Voy a ver ese lugar nuevo",
+      "category": "planes",
+      "tone": "curious"
+    },
+    {
+      "id": 75,
+      "text": "Hoy me tomo el día libre",
+      "category": "planes",
+      "tone": "relaxed"
+    },
+    {
+      "id": 76,
+      "text": "Tengo que reparar algunas cosas",
+      "category": "planes",
+      "tone": "busy"
+    },
+    {
+      "id": 77,
+      "text": "Voy a trabajar en mi huerto",
+      "category": "planes",
+      "tone": "productive"
+    },
+    {
+      "id": 78,
+      "text": "Hoy toca limpiar un poco",
+      "category": "planes",
+      "tone": "responsible"
+    },
+    {
+      "id": 79,
+      "text": "Tengo que buscar un lugar mejor",
+      "category": "planes",
+      "tone": "thoughtful"
+    },
+    {
+      "id": 80,
+      "text": "Voy a probar algo diferente hoy",
+      "category": "planes",
+      "tone": "experimental"
+    },
+    {
+      "id": 81,
+      "text": "Hoy me siento productivo",
+      "category": "planes",
+      "tone": "energetic"
+    },
+    {
+      "id": 82,
+      "text": "Tengo que hacer inventario",
+      "category": "planes",
+      "tone": "organized"
+    },
+    {
+      "id": 83,
+      "text": "Voy a despejar la mente un rato",
+      "category": "planes",
+      "tone": "calm"
+    },
+    {
+      "id": 84,
+      "text": "Hoy mapeo la zona",
+      "category": "planes",
+      "tone": "exploratory"
+    },
+    {
+      "id": 85,
+      "text": "Tengo que conseguir más recursos",
+      "category": "planes",
+      "tone": "goal-oriented"
+    },
+    {
+      "id": 86,
+      "text": "Voy a experimentar con recetas",
+      "category": "planes",
+      "tone": "creative"
+    },
+    {
+      "id": 87,
+      "text": "Hoy me dedico a entrenar",
+      "category": "planes",
+      "tone": "focused"
+    },
+    {
+      "id": 88,
+      "text": "Tengo que revisar el perímetro",
+      "category": "planes",
+      "tone": "cautious"
+    },
+    {
+      "id": 89,
+      "text": "Voy a optimizar mi rutina",
+      "category": "planes",
+      "tone": "efficient"
+    },
+    {
+      "id": 90,
+      "text": "Hoy solo camino sin rumbo",
+      "category": "planes",
+      "tone": "carefree"
+    },
+    {
+      "id": 91,
+      "text": "Tengo una idea para más tarde",
+      "category": "planes",
+      "tone": "thoughtful"
+    },
+    {
+      "id": 92,
+      "text": "Voy a ver qué encuentro por ahí",
+      "category": "planes",
+      "tone": "exploratory"
+    },
+    {
+      "id": 93,
+      "text": "Hoy toca aventura",
+      "category": "planes",
+      "tone": "excited"
+    },
+    {
+      "id": 94,
+      "text": "Tengo que planificar mejor",
+      "category": "planes",
+      "tone": "reflective"
+    },
+    {
+      "id": 95,
+      "text": "Voy a mejorar mi técnica",
+      "category": "planes",
+      "tone": "determined"
+    },
+    {
+      "id": 96,
+      "text": "Hoy me concentro en los detalles",
+      "category": "planes",
+      "tone": "meticulous"
+    },
+    {
+      "id": 97,
+      "text": "Tengo que ser más eficiente",
+      "category": "planes",
+      "tone": "self-improvement"
+    },
+    {
+      "id": 98,
+      "text": "Voy a intentar algo nuevo",
+      "category": "planes",
+      "tone": "brave"
+    },
+    {
+      "id": 99,
+      "text": "Hoy improviso sobre la marcha",
+      "category": "planes",
+      "tone": "spontaneous"
+    },
+    {
+      "id": 100,
+      "text": "Tengo todo el día por delante",
+      "category": "planes",
+      "tone": "optimistic"
+    },
+    {
+      "id": 101,
+      "text": "Eso es interesante",
+      "category": "observaciones",
+      "tone": "curious"
+    },
+    {
+      "id": 102,
+      "text": "No me había fijado en eso",
+      "category": "observaciones",
+      "tone": "surprised"
+    },
+    {
+      "id": 103,
+      "text": "Qué curioso",
+      "category": "observaciones",
+      "tone": "intrigued"
+    },
+    {
+      "id": 104,
+      "text": "Nunca lo había visto así",
+      "category": "observaciones",
+      "tone": "thoughtful"
+    },
+    {
+      "id": 105,
+      "text": "Tiene sentido",
+      "category": "observaciones",
+      "tone": "understanding"
+    },
+    {
+      "id": 106,
+      "text": "Qué raro",
+      "category": "observaciones",
+      "tone": "puzzled"
+    },
+    {
+      "id": 107,
+      "text": "Está cambiando todo",
+      "category": "observaciones",
+      "tone": "observational"
+    },
+    {
+      "id": 108,
+      "text": "No es lo que esperaba",
+      "category": "observaciones",
+      "tone": "surprised"
+    },
+    {
+      "id": 109,
+      "text": "Qué detalle más lindo",
+      "category": "observaciones",
+      "tone": "appreciative"
+    },
+    {
+      "id": 110,
+      "text": "Eso no estaba antes",
+      "category": "observaciones",
+      "tone": "noticing"
+    },
+    {
+      "id": 111,
+      "text": "Cada día algo nuevo",
+      "category": "observaciones",
+      "tone": "philosophical"
+    },
+    {
+      "id": 112,
+      "text": "Qué cosa más curiosa",
+      "category": "observaciones",
+      "tone": "bemused"
+    },
+    {
+      "id": 113,
+      "text": "Así que era eso",
+      "category": "observaciones",
+      "tone": "realization"
+    },
+    {
+      "id": 114,
+      "text": "Interesante perspectiva",
+      "category": "observaciones",
+      "tone": "thoughtful"
+    },
+    {
+      "id": 115,
+      "text": "No me lo esperaba",
+      "category": "observaciones",
+      "tone": "surprised"
+    },
+    {
+      "id": 116,
+      "text": "Eso explica muchas cosas",
+      "category": "observaciones",
+      "tone": "understanding"
+    },
+    {
+      "id": 117,
+      "text": "Qué casualidad",
+      "category": "observaciones",
+      "tone": "amused"
+    },
+    {
+      "id": 118,
+      "text": "Las cosas cambian rápido",
+      "category": "observaciones",
+      "tone": "reflective"
+    },
+    {
+      "id": 119,
+      "text": "Nunca lo había pensado así",
+      "category": "observaciones",
+      "tone": "enlightened"
+    },
+    {
+      "id": 120,
+      "text": "Qué diferente se ve",
+      "category": "observaciones",
+      "tone": "comparing"
+    },
+    {
+      "id": 121,
+      "text": "Eso tiene su lógica",
+      "category": "observaciones",
+      "tone": "agreeable"
+    },
+    {
+      "id": 122,
+      "text": "No está mal",
+      "category": "observaciones",
+      "tone": "neutral-positive"
+    },
+    {
+      "id": 123,
+      "text": "Así funciona esto",
+      "category": "observaciones",
+      "tone": "explanatory"
+    },
+    {
+      "id": 124,
+      "text": "Qué peculiar",
+      "category": "observaciones",
+      "tone": "mild-surprise"
+    },
+    {
+      "id": 125,
+      "text": "Hay que verlo para creerlo",
+      "category": "observaciones",
+      "tone": "amazed"
+    },
+    {
+      "id": 126,
+      "text": "Cada quien tiene lo suyo",
+      "category": "observaciones",
+      "tone": "accepting"
+    },
+    {
+      "id": 127,
+      "text": "Eso sí que es algo",
+      "category": "observaciones",
+      "tone": "impressed"
+    },
+    {
+      "id": 128,
+      "text": "No todos los días se ve eso",
+      "category": "observaciones",
+      "tone": "rare"
+    },
+    {
+      "id": 129,
+      "text": "Qué combinación interesante",
+      "category": "observaciones",
+      "tone": "intrigued"
+    },
+    {
+      "id": 130,
+      "text": "Eso es nuevo para mí",
+      "category": "observaciones",
+      "tone": "learning"
+    },
+    {
+      "id": 131,
+      "text": "Tiene su encanto",
+      "category": "observaciones",
+      "tone": "charmed"
+    },
+    {
+      "id": 132,
+      "text": "Qué contraste",
+      "category": "observaciones",
+      "tone": "comparing"
+    },
+    {
+      "id": 133,
+      "text": "Nunca me canso de verlo",
+      "category": "observaciones",
+      "tone": "fond"
+    },
+    {
+      "id": 134,
+      "text": "Eso sí que sorprende",
+      "category": "observaciones",
+      "tone": "surprised"
+    },
+    {
+      "id": 135,
+      "text": "Qué mezcla tan extraña",
+      "category": "observaciones",
+      "tone": "puzzled"
+    },
+    {
+      "id": 136,
+      "text": "Así son las cosas",
+      "category": "observaciones",
+      "tone": "accepting"
+    },
+    {
+      "id": 137,
+      "text": "Qué mundo tan raro",
+      "category": "observaciones",
+      "tone": "bemused"
+    },
+    {
+      "id": 138,
+      "text": "Eso tiene su gracia",
+      "category": "observaciones",
+      "tone": "amused"
+    },
+    {
+      "id": 139,
+      "text": "No esperaba menos",
+      "category": "observaciones",
+      "tone": "expected"
+    },
+    {
+      "id": 140,
+      "text": "Qué ocurrencia",
+      "category": "observaciones",
+      "tone": "light-hearted"
+    },
+    {
+      "id": 141,
+      "text": "Siempre hay algo que aprender",
+      "category": "observaciones",
+      "tone": "wise"
+    },
+    {
+      "id": 142,
+      "text": "Eso no lo veo todos los días",
+      "category": "observaciones",
+      "tone": "rare"
+    },
+    {
+      "id": 143,
+      "text": "Qué cosita más linda",
+      "category": "observaciones",
+      "tone": "endeared"
+    },
+    {
+      "id": 144,
+      "text": "Tiene su punto",
+      "category": "observaciones",
+      "tone": "agreeable"
+    },
+    {
+      "id": 145,
+      "text": "No está nada mal",
+      "category": "observaciones",
+      "tone": "pleased"
+    },
+    {
+      "id": 146,
+      "text": "Qué detalle tan curioso",
+      "category": "observaciones",
+      "tone": "intrigued"
+    },
+    {
+      "id": 147,
+      "text": "Eso sí que es original",
+      "category": "observaciones",
+      "tone": "impressed"
+    },
+    {
+      "id": 148,
+      "text": "Nunca deja de sorprenderme",
+      "category": "observaciones",
+      "tone": "wonder"
+    },
+    {
+      "id": 149,
+      "text": "Qué forma tan peculiar",
+      "category": "observaciones",
+      "tone": "observant"
+    },
+    {
+      "id": 150,
+      "text": "Hay cosas que no cambian",
+      "category": "observaciones",
+      "tone": "nostalgic"
+    },
+    {
+      "id": 151,
+      "text": "Este lugar tiene su magia",
+      "category": "entorno",
+      "tone": "appreciative"
+    },
+    {
+      "id": 152,
+      "text": "Qué tranquilo está todo",
+      "category": "entorno",
+      "tone": "peaceful"
+    },
+    {
+      "id": 153,
+      "text": "Se siente diferente aquí",
+      "category": "entorno",
+      "tone": "sensing"
+    },
+    {
+      "id": 154,
+      "text": "Me gusta este rincón",
+      "category": "entorno",
+      "tone": "fond"
+    },
+    {
+      "id": 155,
+      "text": "Qué paisaje tan bonito",
+      "category": "entorno",
+      "tone": "admiring"
+    },
+    {
+      "id": 156,
+      "text": "Este sitio es acogedor",
+      "category": "entorno",
+      "tone": "comfortable"
+    },
+    {
+      "id": 157,
+      "text": "Hay mucha actividad por aquí",
+      "category": "entorno",
+      "tone": "observational"
+    },
+    {
+      "id": 158,
+      "text": "Qué ambiente tan agradable",
+      "category": "entorno",
+      "tone": "pleasant"
+    },
+    {
+      "id": 159,
+      "text": "Nunca había venido por acá",
+      "category": "entorno",
+      "tone": "discovering"
+    },
+    {
+      "id": 160,
+      "text": "Este lugar está cambiando",
+      "category": "entorno",
+      "tone": "noticing"
+    },
+    {
+      "id": 161,
+      "text": "Qué vista tan linda",
+      "category": "entorno",
+      "tone": "impressed"
+    },
+    {
+      "id": 162,
+      "text": "Aquí se respira paz",
+      "category": "entorno",
+      "tone": "calm"
+    },
+    {
+      "id": 163,
+      "text": "Este camino es nuevo",
+      "category": "entorno",
+      "tone": "curious"
+    },
+    {
+      "id": 164,
+      "text": "Qué zona tan interesante",
+      "category": "entorno",
+      "tone": "intrigued"
+    },
+    {
+      "id": 165,
+      "text": "Hay mucho que explorar",
+      "category": "entorno",
+      "tone": "excited"
+    },
+    {
+      "id": 166,
+      "text": "Este lugar es especial",
+      "category": "entorno",
+      "tone": "appreciative"
+    },
+    {
+      "id": 167,
+      "text": "Qué bien cuidado está todo",
+      "category": "entorno",
+      "tone": "impressed"
+    },
+    {
+      "id": 168,
+      "text": "Se está poniendo oscuro",
+      "category": "entorno",
+      "tone": "observational"
+    },
+    {
+      "id": 169,
+      "text": "Este es mi lugar favorito",
+      "category": "entorno",
+      "tone": "fond"
+    },
+    {
+      "id": 170,
+      "text": "Qué espacio tan amplio",
+      "category": "entorno",
+      "tone": "spatial"
+    },
+    {
+      "id": 171,
+      "text": "Hay muchos sonidos diferentes",
+      "category": "entorno",
+      "tone": "listening"
+    },
+    {
+      "id": 172,
+      "text": "Este sitio es perfecto",
+      "category": "entorno",
+      "tone": "satisfied"
+    },
+    {
+      "id": 173,
+      "text": "Qué construcción tan curiosa",
+      "category": "entorno",
+      "tone": "examining"
+    },
+    {
+      "id": 174,
+      "text": "Hay mucha vegetación aquí",
+      "category": "entorno",
+      "tone": "noticing"
+    },
+    {
+      "id": 175,
+      "text": "Este lugar tiene historia",
+      "category": "entorno",
+      "tone": "reflective"
+    },
+    {
+      "id": 176,
+      "text": "Qué colores tan vivos",
+      "category": "entorno",
+      "tone": "visual"
+    },
+    {
+      "id": 177,
+      "text": "Se ve mejor de cerca",
+      "category": "entorno",
+      "tone": "observing"
+    },
+    {
+      "id": 178,
+      "text": "Este terreno es irregular",
+      "category": "entorno",
+      "tone": "noticing"
+    },
+    {
+      "id": 179,
+      "text": "Qué estructura tan imponente",
+      "category": "entorno",
+      "tone": "awed"
+    },
+    {
+      "id": 180,
+      "text": "Hay recursos por todas partes",
+      "category": "entorno",
+      "tone": "practical"
+    },
+    {
+      "id": 181,
+      "text": "Este lugar es único",
+      "category": "entorno",
+      "tone": "appreciative"
+    },
+    {
+      "id": 182,
+      "text": "Qué atmósfera tan especial",
+      "category": "entorno",
+      "tone": "atmospheric"
+    },
+    {
+      "id": 183,
+      "text": "Se oyen los animales cerca",
+      "category": "entorno",
+      "tone": "listening"
+    },
+    {
+      "id": 184,
+      "text": "Este bioma es distinto",
+      "category": "entorno",
+      "tone": "comparing"
+    },
+    {
+      "id": 185,
+      "text": "Qué textura tan interesante",
+      "category": "entorno",
+      "tone": "tactile"
+    },
+    {
+      "id": 186,
+      "text": "Hay buena iluminación aquí",
+      "category": "entorno",
+      "tone": "practical"
+    },
+    {
+      "id": 187,
+      "text": "Este sitio es estratégico",
+      "category": "entorno",
+      "tone": "tactical"
+    },
+    {
+      "id": 188,
+      "text": "Qué formaciones tan raras",
+      "category": "entorno",
+      "tone": "geological"
+    },
+    {
+      "id": 189,
+      "text": "Se ve la mano del tiempo",
+      "category": "entorno",
+      "tone": "philosophical"
+    },
+    {
+      "id": 190,
+      "text": "Este lugar me da buena espina",
+      "category": "entorno",
+      "tone": "intuitive"
+    },
+    {
+      "id": 191,
+      "text": "Qué diseño tan ingenioso",
+      "category": "entorno",
+      "tone": "admiring"
+    },
+    {
+      "id": 192,
+      "text": "Hay mucho potencial aquí",
+      "category": "entorno",
+      "tone": "evaluating"
+    },
+    {
+      "id": 193,
+      "text": "Este lugar es un hallazgo",
+      "category": "entorno",
+      "tone": "pleased"
+    },
+    {
+      "id": 194,
+      "text": "Qué organización tan buena",
+      "category": "entorno",
+      "tone": "impressed"
+    },
+    {
+      "id": 195,
+      "text": "Se nota el cuidado",
+      "category": "entorno",
+      "tone": "appreciative"
+    },
+    {
+      "id": 196,
+      "text": "Este camino lleva lejos",
+      "category": "entorno",
+      "tone": "pondering"
+    },
+    {
+      "id": 197,
+      "text": "Qué equilibrio tan perfecto",
+      "category": "entorno",
+      "tone": "balanced"
+    },
+    {
+      "id": 198,
+      "text": "Hay armonía en este lugar",
+      "category": "entorno",
+      "tone": "peaceful"
+    },
+    {
+      "id": 199,
+      "text": "Este sitio inspira",
+      "category": "entorno",
+      "tone": "inspired"
+    },
+    {
+      "id": 200,
+      "text": "Qué escenario tan bonito",
+      "category": "entorno",
+      "tone": "scenic"
+    },
+    {
+      "id": 201,
+      "text": "Una vez me pasó algo parecido",
+      "category": "anecdotas",
+      "tone": "reminiscing"
+    },
+    {
+      "id": 202,
+      "text": "Ayer vi algo increíble",
+      "category": "anecdotas",
+      "tone": "excited"
+    },
+    {
+      "id": 203,
+      "text": "Me acuerdo cuando empecé",
+      "category": "anecdotas",
+      "tone": "nostalgic"
+    },
+    {
+      "id": 204,
+      "text": "El otro día me perdí por aquí",
+      "category": "anecdotas",
+      "tone": "sheepish"
+    },
+    {
+      "id": 205,
+      "text": "Hace tiempo que no venía",
+      "category": "anecdotas",
+      "tone": "returning"
+    },
+    {
+      "id": 206,
+      "text": "Me pasó algo curioso antes",
+      "category": "anecdotas",
+      "tone": "amused"
+    },
+    {
+      "id": 207,
+      "text": "Ayer casi me caigo",
+      "category": "anecdotas",
+      "tone": "laughing"
+    },
+    {
+      "id": 208,
+      "text": "Encontré algo raro el otro día",
+      "category": "anecdotas",
+      "tone": "mysterious"
+    },
+    {
+      "id": 209,
+      "text": "Me acuerdo de ese lugar",
+      "category": "anecdotas",
+      "tone": "remembering"
+    },
+    {
+      "id": 210,
+      "text": "Una vez me quedé atrapado ahí",
+      "category": "anecdotas",
+      "tone": "survivor"
+    },
+    {
+      "id": 211,
+      "text": "Ayer tuve un día productivo",
+      "category": "anecdotas",
+      "tone": "satisfied"
+    },
+    {
+      "id": 212,
+      "text": "Me pasó algo inesperado",
+      "category": "anecdotas",
+      "tone": "surprised"
+    },
+    {
+      "id": 213,
+      "text": "Hace poco descubrí esto",
+      "category": "anecdotas",
+      "tone": "discovering"
+    },
+    {
+      "id": 214,
+      "text": "Casi lo logro la otra vez",
+      "category": "anecdotas",
+      "tone": "determined"
+    },
+    {
+      "id": 215,
+      "text": "Ayer aprendí algo nuevo",
+      "category": "anecdotas",
+      "tone": "learning"
+    },
+    {
+      "id": 216,
+      "text": "Me acuerdo del primer día",
+      "category": "anecdotas",
+      "tone": "nostalgic"
+    },
+    {
+      "id": 217,
+      "text": "El otro día me divertí mucho",
+      "category": "anecdotas",
+      "tone": "cheerful"
+    },
+    {
+      "id": 218,
+      "text": "Hace tiempo tuve un problema ahí",
+      "category": "anecdotas",
+      "tone": "cautious"
+    },
+    {
+      "id": 219,
+      "text": "Ayer me dio un susto",
+      "category": "anecdotas",
+      "tone": "startled"
+    },
+    {
+      "id": 220,
+      "text": "Me acuerdo cuando era nuevo",
+      "category": "anecdotas",
+      "tone": "reflective"
+    },
+    {
+      "id": 221,
+      "text": "Una vez pasé toda la noche aquí",
+      "category": "anecdotas",
+      "tone": "adventurous"
+    },
+    {
+      "id": 222,
+      "text": "Ayer todo salió perfecto",
+      "category": "anecdotas",
+      "tone": "pleased"
+    },
+    {
+      "id": 223,
+      "text": "Me pasó algo gracioso antes",
+      "category": "anecdotas",
+      "tone": "amused"
+    },
+    {
+      "id": 224,
+      "text": "Hace poco cambié de estrategia",
+      "category": "anecdotas",
+      "tone": "adaptive"
+    },
+    {
+      "id": 225,
+      "text": "El otro día me sorprendí",
+      "category": "anecdotas",
+      "tone": "surprised"
+    },
+    {
+      "id": 226,
+      "text": "Me acuerdo de ese momento",
+      "category": "anecdotas",
+      "tone": "fond"
+    },
+    {
+      "id": 227,
+      "text": "Ayer mejoré mi técnica",
+      "category": "anecdotas",
+      "tone": "proud"
+    },
+    {
+      "id": 228,
+      "text": "Una vez me ayudó mucho eso",
+      "category": "anecdotas",
+      "tone": "grateful"
+    },
+    {
+      "id": 229,
+      "text": "Hace tiempo vi algo similar",
+      "category": "anecdotas",
+      "tone": "comparing"
+    },
+    {
+      "id": 230,
+      "text": "El otro día tuve suerte",
+      "category": "anecdotas",
+      "tone": "fortunate"
+    },
+    {
+      "id": 231,
+      "text": "Me pasó justo lo contrario",
+      "category": "anecdotas",
+      "tone": "ironic"
+    },
+    {
+      "id": 232,
+      "text": "Ayer fue un día extraño",
+      "category": "anecdotas",
+      "tone": "bemused"
+    },
+    {
+      "id": 233,
+      "text": "Me acuerdo que era diferente",
+      "category": "anecdotas",
+      "tone": "nostalgic"
+    },
+    {
+      "id": 234,
+      "text": "Una vez intenté algo loco",
+      "category": "anecdotas",
+      "tone": "daring"
+    },
+    {
+      "id": 235,
+      "text": "Hace poco tuve una idea",
+      "category": "anecdotas",
+      "tone": "inspired"
+    },
+    {
+      "id": 236,
+      "text": "El otro día no salió bien",
+      "category": "anecdotas",
+      "tone": "accepting"
+    },
+    {
+      "id": 237,
+      "text": "Me pasó de casualidad",
+      "category": "anecdotas",
+      "tone": "serendipitous"
+    },
+    {
+      "id": 238,
+      "text": "Ayer experimenté con algo",
+      "category": "anecdotas",
+      "tone": "experimental"
+    },
+    {
+      "id": 239,
+      "text": "Me acuerdo de esa sensación",
+      "category": "anecdotas",
+      "tone": "emotional"
+    },
+    {
+      "id": 240,
+      "text": "Una vez no calculé bien",
+      "category": "anecdotas",
+      "tone": "lesson-learned"
+    },
+    {
+      "id": 241,
+      "text": "Hace tiempo era más difícil",
+      "category": "anecdotas",
+      "tone": "progressing"
+    },
+    {
+      "id": 242,
+      "text": "El otro día lo intenté de nuevo",
+      "category": "anecdotas",
+      "tone": "persistent"
+    },
+    {
+      "id": 243,
+      "text": "Me pasó en el momento justo",
+      "category": "anecdotas",
+      "tone": "timely"
+    },
+    {
+      "id": 244,
+      "text": "Ayer descubrí un atajo",
+      "category": "anecdotas",
+      "tone": "clever"
+    },
+    {
+      "id": 245,
+      "text": "Me acuerdo que costó trabajo",
+      "category": "anecdotas",
+      "tone": "effort"
+    },
+    {
+      "id": 246,
+      "text": "Una vez tuve que improvisar",
+      "category": "anecdotas",
+      "tone": "adaptive"
+    },
+    {
+      "id": 247,
+      "text": "Hace poco cambió todo",
+      "category": "anecdotas",
+      "tone": "transformative"
+    },
+    {
+      "id": 248,
+      "text": "El otro día valió la pena",
+      "category": "anecdotas",
+      "tone": "rewarding"
+    },
+    {
+      "id": 249,
+      "text": "Me pasó más rápido de lo esperado",
+      "category": "anecdotas",
+      "tone": "swift"
+    },
+    {
+      "id": 250,
+      "text": "Ayer conecté las piezas",
+      "category": "anecdotas",
+      "tone": "eureka"
+    },
+    {
+      "id": 251,
+      "text": "Hola, qué tal",
+      "category": "saludos",
+      "tone": "friendly"
+    },
+    {
+      "id": 252,
+      "text": "Nos vemos luego",
+      "category": "saludos",
+      "tone": "casual"
+    },
+    {
+      "id": 253,
+      "text": "Qué gusto verte",
+      "category": "saludos",
+      "tone": "warm"
+    },
+    {
+      "id": 254,
+      "text": "Hasta pronto",
+      "category": "saludos",
+      "tone": "friendly"
+    },
+    {
+      "id": 255,
+      "text": "Buenos días",
+      "category": "saludos",
+      "tone": "polite"
+    },
+    {
+      "id": 256,
+      "text": "Que tengas buen día",
+      "category": "saludos",
+      "tone": "kind"
+    },
+    {
+      "id": 257,
+      "text": "Hola de nuevo",
+      "category": "saludos",
+      "tone": "recognizing"
+    },
+    {
+      "id": 258,
+      "text": "Nos vemos por ahí",
+      "category": "saludos",
+      "tone": "casual"
+    },
+    {
+      "id": 259,
+      "text": "Qué onda",
+      "category": "saludos",
+      "tone": "informal"
+    },
+    {
+      "id": 260,
+      "text": "Cuídate mucho",
+      "category": "saludos",
+      "tone": "caring"
+    },
+    {
+      "id": 261,
+      "text": "Buenas tardes",
+      "category": "saludos",
+      "tone": "polite"
+    },
+    {
+      "id": 262,
+      "text": "Suerte con eso",
+      "category": "saludos",
+      "tone": "encouraging"
+    },
+    {
+      "id": 263,
+      "text": "Qué hay de nuevo",
+      "category": "saludos",
+      "tone": "curious"
+    },
+    {
+      "id": 264,
+      "text": "Ahí nos vemos",
+      "category": "saludos",
+      "tone": "casual"
+    },
+    {
+      "id": 265,
+      "text": "Buenas noches",
+      "category": "saludos",
+      "tone": "polite"
+    },
+    {
+      "id": 266,
+      "text": "Que vaya bien",
+      "category": "saludos",
+      "tone": "well-wishing"
+    },
+    {
+      "id": 267,
+      "text": "Hey, cómo va",
+      "category": "saludos",
+      "tone": "friendly"
+    },
+    {
+      "id": 268,
+      "text": "Nos vemos mañana",
+      "category": "saludos",
+      "tone": "planning"
+    },
+    {
+      "id": 269,
+      "text": "Qué pases bien",
+      "category": "saludos",
+      "tone": "kind"
+    },
+    {
+      "id": 270,
+      "text": "Hasta luego",
+      "category": "saludos",
+      "tone": "casual"
+    },
+    {
+      "id": 271,
+      "text": "Saludos",
+      "category": "saludos",
+      "tone": "neutral"
+    },
+    {
+      "id": 272,
+      "text": "Que esté todo bien",
+      "category": "saludos",
+      "tone": "caring"
+    },
+    {
+      "id": 273,
+      "text": "Nos encontramos después",
+      "category": "saludos",
+      "tone": "anticipating"
+    },
+    {
+      "id": 274,
+      "text": "Que tengas suerte",
+      "category": "saludos",
+      "tone": "supportive"
+    },
+    {
+      "id": 275,
+      "text": "Hola, buen día",
+      "category": "saludos",
+      "tone": "polite"
+    },
+    {
+      "id": 276,
+      "text": "Chao, cuídate",
+      "category": "saludos",
+      "tone": "caring"
+    },
+    {
+      "id": 277,
+      "text": "Qué tengas buena tarde",
+      "category": "saludos",
+      "tone": "kind"
+    },
+    {
+      "id": 278,
+      "text": "Nos cruzamos luego",
+      "category": "saludos",
+      "tone": "casual"
+    },
+    {
+      "id": 279,
+      "text": "Hasta la próxima",
+      "category": "saludos",
+      "tone": "friendly"
+    },
+    {
+      "id": 280,
+      "text": "Que descanses",
+      "category": "saludos",
+      "tone": "caring"
+    },
+    {
+      "id": 281,
+      "text": "Por qué será",
+      "category": "preguntas",
+      "tone": "wondering"
+    },
+    {
+      "id": 282,
+      "text": "Será cosa mía",
+      "category": "preguntas",
+      "tone": "self-doubt"
+    },
+    {
+      "id": 283,
+      "text": "A dónde irá a parar esto",
+      "category": "preguntas",
+      "tone": "pondering"
+    },
+    {
+      "id": 284,
+      "text": "Qué habrá pasado",
+      "category": "preguntas",
+      "tone": "curious"
+    },
+    {
+      "id": 285,
+      "text": "Cómo será por allá",
+      "category": "preguntas",
+      "tone": "imagining"
+    },
+    {
+      "id": 286,
+      "text": "Quién sabe",
+      "category": "preguntas",
+      "tone": "uncertain"
+    },
+    {
+      "id": 287,
+      "text": "Será posible",
+      "category": "preguntas",
+      "tone": "skeptical"
+    },
+    {
+      "id": 288,
+      "text": "Qué tan lejos será",
+      "category": "preguntas",
+      "tone": "measuring"
+    },
+    {
+      "id": 289,
+      "text": "Habrá más como este",
+      "category": "preguntas",
+      "tone": "comparing"
+    },
+    {
+      "id": 290,
+      "text": "Por qué no lo intenté antes",
+      "category": "preguntas",
+      "tone": "regret"
+    },
+    {
+      "id": 291,
+      "text": "Será que funciona",
+      "category": "preguntas",
+      "tone": "testing"
+    },
+    {
+      "id": 292,
+      "text": "Qué más habrá por descubrir",
+      "category": "preguntas",
+      "tone": "exploratory"
+    },
+    {
+      "id": 293,
+      "text": "Cómo no lo vi antes",
+      "category": "preguntas",
+      "tone": "realization"
+    },
+    {
+      "id": 294,
+      "text": "Será mejor así",
+      "category": "preguntas",
+      "tone": "accepting"
+    },
+    {
+      "id": 295,
+      "text": "Qué más da",
+      "category": "preguntas",
+      "tone": "dismissive"
+    },
+    {
+      "id": 296,
+      "text": "Habrá alguna diferencia",
+      "category": "preguntas",
+      "tone": "doubting"
+    },
+    {
+      "id": 297,
+      "text": "Por qué no",
+      "category": "preguntas",
+      "tone": "open"
+    },
+    {
+      "id": 298,
+      "text": "Será el momento",
+      "category": "preguntas",
+      "tone": "timing"
+    },
+    {
+      "id": 299,
+      "text": "Qué puede salir mal",
+      "category": "preguntas",
+      "tone": "optimistic"
+    },
+    {
+      "id": 300,
+      "text": "Cómo llegué hasta aquí",
+      "category": "preguntas",
+      "tone": "reflective"
+    }
+  ]
+}

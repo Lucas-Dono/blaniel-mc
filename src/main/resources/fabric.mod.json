@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "blaniel-mc",
+	"version": "${version}",
+	"name": "Blaniel Minecraft Integration",
+	"description": "Conecta tus agentes de IA de Blaniel con Minecraft. Habla con tus personajes en un mundo 3D.",
+	"authors": [
+		"Tu Nombre"
+	],
+	"contact": {
+		"homepage": "https://blaniel.com",
+		"sources": "https://github.com/tu-usuario/blaniel-mc"
+	},
+	"license": "MIT",
+	"icon": "assets/blaniel-mc/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.blaniel.minecraft.BlanielMod"
+		],
+		"client": [
+			"com.blaniel.minecraft.client.BlanielModClient"
+		]
+	},
+	"mixins": [
+		"blaniel-mc.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

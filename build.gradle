@@ -1,0 +1,146 @@
+plugins {
+	id 'fabric-loom' version '1.6.12'
+	id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+	archivesName = project.archives_base_name
+}
+
+repositories {
+	// Add repositories to retrieve artifacts from in here.
+	// You should only use this when depending on other mods because
+	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
+	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
+	// for more information about repositories.
+}
+
+loom {
+    // splitEnvironmentSourceSets() - DESHABILITADO temporalmente
+    // Bug en Loom 1.5.x causa que remapJar genere JAR vacío
+    // TODO: Re-habilitar cuando actualicemos a Loom 1.7+
+
+	// mods {
+	// 	"blaniel-mc" {
+	// 		sourceSet sourceSets.main
+	// 		sourceSet sourceSets.client
+	// 	}
+	// }
+}
+
+dependencies {
+	// To change the versions see the gradle.properties file
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+
+	// Fabric API
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+	// JSON (Gson) - único externo necesario
+	include implementation("com.google.code.gson:gson:2.10.1")
+
+	// Nota: Usamos java.net.http.HttpClient (nativo en Java 11+)
+	// No requiere dependencias externas
+}
+
+processResources {
+	inputs.property "version", project.version
+
+	filesMatching("fabric.mod.json") {
+		expand "version": project.version
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	// Compilar con target 17 para compatibilidad con Minecraft 1.20.1
+	it.options.release = 17
+}
+
+java {
+	// Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
+	// if it is present.
+	// If you remove this line, sources will not be generated.
+	withSourcesJar()
+
+	sourceCompatibility = JavaVersion.VERSION_17
+	targetCompatibility = JavaVersion.VERSION_17
+
+	// Nota: No usamos toolchain para evitar problemas de descarga
+	// Java 24 puede compilar a target 17 sin problemas
+}
+
+jar {
+	from("LICENSE") {
+		rename { "${it}_${project.base.archivesName.get()}"}
+	}
+
+	manifest {
+		attributes([
+			'Fabric-Mapping-Namespace': 'named'
+		])
+	}
+}
+
+// Configurar remapJar para incluir dependencias anidadas (como Gson)
+remapJar {
+	input = jar.archiveFile
+	addNestedDependencies = true
+}
+
+// Tarea para instalar el mod en Minecraft
+task installMod(type: Copy) {
+	description = 'Instala el mod en Minecraft'
+	group = 'blaniel'
+
+	from 'build/libs'
+	into "${System.getProperty('user.home')}/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.20.1(1)/minecraft/mods"
+	include 'blaniel-mc-*.jar'
+	exclude '*-sources.jar'
+
+	dependsOn remapJar
+
+	doLast {
+		println "✓ Mod instalado: ${destinationDir}/blaniel-mc-0.1.0-alpha.jar"
+		println "  Mappings: Intermediary (compatible con Minecraft)"
+	}
+}
+
+// Tarea para preparar el mod para distribución (PRODUCCIÓN - usa JAR con Intermediary mappings)
+task prepareRelease(type: Copy) {
+	description = 'Prepara el JAR para distribución (Intermediary mappings)'
+	group = 'blaniel'
+
+	from 'build/libs'
+	into 'build/release'
+	include 'blaniel-mc-*.jar'
+	exclude '*-sources.jar'
+
+	dependsOn remapJar
+
+	doLast {
+		println "✓ JAR de producción listo: build/release/blaniel-mc-0.1.0-alpha.jar"
+		println "  Tamaño: ${file('build/release/blaniel-mc-0.1.0-alpha.jar').length() / 1024} KB"
+		println "  Usa Intermediary mappings - listo para distribución"
+	}
+}
+
+// configure the maven publication
+publishing {
+	publications {
+		mavenJava(MavenPublication) {
+			from components.java
+		}
+	}
+
+	// See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
+	repositories {
+		// Add repositories to publish to here.
+		// Notice: This block does NOT have the same function as the block in the top level.
+		// The repositories here will be used for publishing your artifact, not for
+		// retrieving dependencies.
+	}
+}
