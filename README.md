@@ -117,6 +117,15 @@ Config file: `.minecraft/config/blaniel-mc.json`
 - **[Blaniel SDK](https://github.com/Lucas-Dono/blaniel-sdk)** — Rust SDK for AI NPCs (Python, C#, C FFI, Unity)
 - **[Blaniel Mobile](https://github.com/Lucas-Dono/blaniel-mobile)** — React Native mobile app
 
+## Author
+
+**Lucas Dono** — Computer Science student from Argentina. Solo developer of the entire Blaniel ecosystem.
+
+- Email: [lucasdono332@gmail.com](mailto:lucasdono332@gmail.com)
+- LinkedIn: [linkedin.com/in/lucas-dono](https://www.linkedin.com/in/lucas-dono)
+- GitHub: [@Lucas-Dono](https://github.com/Lucas-Dono)
+- Support: [tecito.app/blaniel](https://tecito.app/blaniel)
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
