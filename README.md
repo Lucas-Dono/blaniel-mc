@@ -121,4 +121,4 @@ Config file: `.minecraft/config/blaniel-mc.json`
 
 MIT — see [LICENSE](LICENSE).
 
-Copyright (c) 2024-2026 Lucas Donadello
+Copyright (c) 2024-2026 Lucas Dono
