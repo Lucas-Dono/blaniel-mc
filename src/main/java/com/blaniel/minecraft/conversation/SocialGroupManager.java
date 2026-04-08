@@ -243,7 +243,7 @@ public class SocialGroupManager {
 		}
 
 		public String getHash() {
-			// Crear hash único ordenado por agentId
+			// Create hash único ordenado por agentId
 			List<String> ids = members.stream()
 				.map(BlanielVillagerEntity::getBlanielAgentId)
 				.filter(Objects::nonNull)

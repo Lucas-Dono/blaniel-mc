@@ -142,7 +142,7 @@ public class UpdateAvailableScreen extends Screen {
 						this.statusMessage = "✓ Descarga completa. Instalando al cerrar...";
 
 						try {
-							// Programar instalación
+							// Schedule installation
 							ModUpdateDownloader.installUpdate(file);
 
 							// Notificar al usuario
@@ -205,7 +205,7 @@ public class UpdateAvailableScreen extends Screen {
 				if (this.client != null) {
 					this.client.execute(() -> {
 						try {
-							// Programar instalación
+							// Schedule installation
 							ModUpdateDownloader.installUpdate(file);
 
 							if (this.client.player != null) {

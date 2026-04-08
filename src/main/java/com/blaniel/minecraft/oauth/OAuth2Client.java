@@ -375,7 +375,7 @@ public class OAuth2Client {
         public String error;
         public String token;
         public int expiresIn;
-        public String googleRefreshToken; // Refresh token de Google para renovar sesión
+        public String googleRefreshToken; // Google refresh token to renew session
         public UserDataResponse user;
         public AgentData[] agents;
         public String message;

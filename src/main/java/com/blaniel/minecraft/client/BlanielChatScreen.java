@@ -32,7 +32,7 @@ public class BlanielChatScreen extends Screen {
     protected void init() {
         super.init();
 
-        // Crear campo de texto para el mensaje
+        // Create campo de texto para el mensaje
         this.messageField = new TextFieldWidget(
             this.textRenderer,
             this.width / 2 - 150,

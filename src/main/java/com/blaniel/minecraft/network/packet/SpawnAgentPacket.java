@@ -30,7 +30,7 @@ public class SpawnAgentPacket {
     public static void handle(MinecraftServer server, ServerPlayerEntity player,
                              String agentId, String agentName) {
         try {
-            // Crear aldeano en posición del jugador
+            // Create aldeano en posición del jugador
             BlanielVillagerEntity villager = new BlanielVillagerEntity(
                 BlanielMod.BLANIEL_VILLAGER,
                 player.getWorld()

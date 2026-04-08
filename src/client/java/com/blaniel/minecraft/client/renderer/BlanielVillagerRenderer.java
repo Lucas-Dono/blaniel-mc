@@ -24,7 +24,7 @@ public class BlanielVillagerRenderer extends MobEntityRenderer<BlanielVillagerEn
 	// Las skins de jugador por defecto están en entity/player/
 	private static final Identifier DEFAULT_TEXTURE = new Identifier("minecraft", "textures/entity/player/wide/steve.png");
 
-	// Set de agentes cuyas skins ya están siendo descargadas (evitar duplicados)
+	// Set of agents whose skins are already being downloaded (avoid duplicates)
 	private static final Set<String> LOADING_SKINS = new HashSet<>();
 
 	public BlanielVillagerRenderer(EntityRendererFactory.Context context) {

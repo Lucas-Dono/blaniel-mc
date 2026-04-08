@@ -185,7 +185,7 @@ public class LoginScreen extends Screen {
 		String redirectUri = "http://127.0.0.1:8888/callback";
 		String apiUrl = BlanielMod.CONFIG.getApiUrl();
 
-		// Crear cliente OAuth
+		// Create cliente OAuth
 		OAuth2Client oauthClient = new OAuth2Client(clientId, redirectUri, apiUrl);
 
 		// Iniciar flujo de autorización (asíncrono)

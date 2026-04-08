@@ -144,7 +144,7 @@ public class BlanielChatIntegration {
     private static JsonArray findNearbyAgents(PlayerEntity player, double radius) {
         JsonArray agents = new JsonArray();
 
-        // Crear bounding box alrededor del jugador
+        // Create bounding box alrededor del jugador
         Box searchBox = new Box(
             player.getX() - radius,
             player.getY() - radius,

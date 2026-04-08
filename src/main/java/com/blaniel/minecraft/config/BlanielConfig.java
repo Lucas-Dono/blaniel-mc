@@ -25,7 +25,7 @@ public class BlanielConfig {
 	private String jwtToken = "";
 	private boolean apiEnabled = true;
 	private String googleClientId = "1036827882293-s8ofh16rlclnp1t82flhk2o54mnbtdmn.apps.googleusercontent.com"; // Default client ID
-	private String googleRefreshToken = ""; // Refresh token de Google para renovar sesión
+	private String googleRefreshToken = ""; // Google refresh token to renew session
 
 	// Datos del usuario (cacheados)
 	private UserData userData = null;
@@ -69,7 +69,7 @@ public class BlanielConfig {
 				save(); // Guardar valores por defecto
 			}
 		} else {
-			save(); // Crear archivo con valores por defecto
+			save(); // Create archivo con valores por defecto
 		}
 	}
 

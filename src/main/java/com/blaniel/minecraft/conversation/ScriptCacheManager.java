@@ -25,7 +25,7 @@ public class ScriptCacheManager {
 	private static final Map<String, ConversationScript> memoryCache = new ConcurrentHashMap<>();
 
 	static {
-		// Crear directorio de caché si no existe
+		// Create directorio de caché si no existe
 		if (!CACHE_DIR.exists()) {
 			CACHE_DIR.mkdirs();
 			System.out.println("[Script Cache] Created cache directory: " + CACHE_DIR.getAbsolutePath());
@@ -109,7 +109,7 @@ public class ScriptCacheManager {
 		return apiClient.getScriptMetadata(groupHash)
 			.thenApply(serverMetadata -> {
 				if (serverMetadata == null) {
-					// No hay script en servidor, usar caché
+					// No script on server, use cache
 					return false;
 				}
 

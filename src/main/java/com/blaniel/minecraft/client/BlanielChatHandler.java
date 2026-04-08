@@ -126,7 +126,7 @@ public class BlanielChatHandler {
             return;
         }
 
-        // Obtener JWT token
+        // Get JWT token
         String jwtToken = com.blaniel.minecraft.BlanielMod.CONFIG.getJwtToken();
         if (jwtToken == null) {
             client.player.sendMessage(

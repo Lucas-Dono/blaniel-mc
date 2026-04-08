@@ -273,7 +273,7 @@ public class BlanielVillagerEntity extends PathAwareEntity {
 		this.setCustomNameVisible(true);
 		this.chatBubbleVisible = true;
 
-		// Programar ocultar después de 5 segundos
+		// Schedule hiding after 5 seconds
 		this.chatBubbleHideTime = System.currentTimeMillis() + 5000;
 	}
 

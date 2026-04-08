@@ -94,7 +94,7 @@ public class BlanielSkinManager {
 			return CompletableFuture.completedFuture(PROFILE_CACHE.get(agentId));
 		}
 
-		// Path del archivo en caché
+		// Path of cached file
 		Path cachedSkinPath = SKIN_CACHE_DIR.resolve(agentId + ".png");
 
 		// 2. Verificar caché en disco
@@ -201,7 +201,7 @@ public class BlanielSkinManager {
 		byte[] skinData
 	) {
 		try {
-			// Crear GameProfile con UUID único basado en agentId
+			// Create GameProfile con UUID único basado en agentId
 			UUID uuid = UUID.nameUUIDFromBytes(("Blaniel:" + agentId).getBytes());
 			GameProfile profile = new GameProfile(uuid, agentName);
 
@@ -214,7 +214,7 @@ public class BlanielSkinManager {
 					// Convertir skin a formato base64 para GameProfile
 					String base64Skin = Base64.getEncoder().encodeToString(skinData);
 
-					// Crear property de textura
+					// Create property de textura
 					// Formato esperado por Minecraft: { "textures": { "SKIN": { "url": "..." } } }
 					String textureJson = String.format(
 						"{\"timestamp\":%d,\"profileId\":\"%s\",\"profileName\":\"%s\",\"textures\":{\"SKIN\":{\"url\":\"blaniel:%s\"}}}",
@@ -363,7 +363,7 @@ public class BlanielSkinManager {
 	 * El renderer debe manejar el null y usar su fallback.
 	 */
 	public static Identifier getTextureIdentifier(String agentId) {
-		return TEXTURE_CACHE.get(agentId);  // Retorna null si no está en caché
+		return TEXTURE_CACHE.get(agentId);  // Returns null if not in cache
 	}
 
 	/**

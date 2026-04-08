@@ -1,0 +1,5 @@
+# Reemplazos a hacer:
+# 1. Línea 121: apiKey -> jwtToken, getApiKey() -> getJwtToken()
+# 2. Línea 249: similar
+# 3. Línea 280-285: función setApiKey -> eliminar o comentar
+# 4. Línea 59: comando setApiKey -> eliminar o comentar

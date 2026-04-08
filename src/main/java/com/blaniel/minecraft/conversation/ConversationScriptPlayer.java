@@ -84,14 +84,14 @@ public class ConversationScriptPlayer {
 		int maxDelay = script.getTiming().getMaxDelayBetweenLines();
 		int delay = minDelay + random.nextInt(maxDelay - minDelay + 1);
 
-		// Si cambió la fase, agregar pausa extra
+		// If phase changed, add extra pause
 		if (previousPhase != null && !line.getPhase().equals(previousPhase)) {
 			delay += script.getTiming().getPauseAtPhaseChange();
 			System.out.println("[Script Player] Phase change: " + previousPhase +
 				" -> " + line.getPhase() + " (+3s pause)");
 		}
 
-		// Programar ejecución
+		// Schedule execution
 		currentTimer = scheduler.schedule(() -> {
 			playLine(line);
 		}, delay, TimeUnit.SECONDS);

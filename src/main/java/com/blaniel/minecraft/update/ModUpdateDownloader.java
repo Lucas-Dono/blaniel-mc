@@ -80,7 +80,7 @@ public class ModUpdateDownloader {
 				}
 
 				try {
-					// Crear archivo temporal
+					// Create archivo temporal
 					File tempFile = new File(UPDATE_DIR, fileName + ".tmp");
 
 					// Descargar con tracking de progreso
@@ -188,14 +188,14 @@ public class ModUpdateDownloader {
 	 * cuando el juego se cierre mediante un shutdown hook.
 	 */
 	public static void installUpdate(File downloadedJar) throws IOException {
-		// Obtener directorio actual del mod
+		// Get directorio actual del mod
 		Path currentJarPath = getCurrentModJarPath();
 
 		if (currentJarPath == null) {
 			throw new IOException("No se pudo determinar la ubicación del JAR actual");
 		}
 
-		// Crear archivo de marcador para el shutdown hook
+		// Create archivo de marcador para el shutdown hook
 		File markerFile = new File(UPDATE_DIR, "pending_update.txt");
 
 		try (PrintWriter writer = new PrintWriter(markerFile)) {

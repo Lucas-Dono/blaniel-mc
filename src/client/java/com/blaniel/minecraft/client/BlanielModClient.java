@@ -67,7 +67,7 @@ public class BlanielModClient implements ClientModInitializer {
 				if (client.currentScreen == null && !autoLoginInProgress) {
 					BlanielMod.LOGGER.info("Auto-login falló previamente, mostrando LoginScreen");
 					client.setScreen(new LoginScreen(null));
-					autoLoginAttempted = true; // Reset para no mostrar múltiples veces
+					autoLoginAttempted = true; // Reset to not show multiple times
 				}
 				return;
 			}
@@ -89,7 +89,7 @@ public class BlanielModClient implements ClientModInitializer {
 						autoLoginInProgress = false;
 
 						if (response.success && response.token != null) {
-							// Renovación exitosa
+							// Successful renewal
 							BlanielConfig.UserData userData = new BlanielConfig.UserData(
 								response.user.id,
 								response.user.email,
@@ -113,7 +113,7 @@ public class BlanielModClient implements ClientModInitializer {
 								);
 							}
 						} else {
-							// Renovación falló, mostrar login screen
+							// Renewal failed, show login screen
 							BlanielMod.LOGGER.warn("Error al renovar sesión: " + response.error);
 							BlanielMod.LOGGER.info("Mostrando LoginScreen para nueva autenticación");
 
